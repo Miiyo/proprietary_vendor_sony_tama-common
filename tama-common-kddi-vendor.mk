@@ -150,7 +150,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.2-service-qti \
-    vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.nfc@1.1-service.cxd22xx:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.1-service.cxd22xx \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/fpc_fingerprint@2.1_HIDL-service \
