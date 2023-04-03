@@ -47,8 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/product/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvt.so \
     vendor/sony/tama-common-kddi/proprietary/product/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvtextutils.so \
     vendor/sony/tama-common-kddi/proprietary/product/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/lib-imsvtutils.so \
-    vendor/sony/tama-common-kddi/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
-    vendor/sony/tama-common-kddi/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/sony/tama-common-kddi/proprietary/product/lib64/libdiag_system.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdiag_system.so \
     vendor/sony/tama-common-kddi/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
     vendor/sony/tama-common-kddi/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
@@ -140,7 +138,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/sony/tama-common-kddi/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
@@ -235,57 +232,14 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/camera/flashled_calc_parameters.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/camera/flashled_calc_parameters.cfg \
+    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/profileSlm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileSlm.xml \
+    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/slm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/slm.conf \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile4.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile5.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile6.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile1.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile15.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile15.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile16.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile16.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile17.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile18.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile19.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile19.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile2.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile20.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile21.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile21.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile3.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile32.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile32.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile4.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile5.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile6.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile7.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile1.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile15.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile15.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile16.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile16.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile17.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile18.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile19.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile19.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile2.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile20.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile21.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile21.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile3.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile32.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile32.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile4.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile5.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile6.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PeleIL/OEM_PeleIL_profile7.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile1.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile15.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile15.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile16.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile16.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile17.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile18.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile19.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile19.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile2.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile20.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile20.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile21.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile21.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile3.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile32.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile32.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile4.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile5.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile6.xml \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/OEM_PlayPL/OEM_PlayPL_profile7.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile1.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile15.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile15.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile16.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ROW/ROW_profile16.xml \
@@ -310,6 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/configstore/vpp.configstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/configstore/vpp.configstore.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
+    vendor/sony/tama-common-kddi/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/firmware/tzsuntory.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b00 \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/firmware/tzsuntory.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b01 \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/firmware/tzsuntory.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tzsuntory.b02 \
@@ -330,7 +285,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/firmware/tztpm.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/tztpm.mdt \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/idd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/idd.conf \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/iddd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/iddd.conf \
-    vendor/sony/tama-common-kddi/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/sony/tama-common-kddi/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
@@ -929,6 +883,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpese@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.nxpnfc@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
+    vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.1.so \
+    vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.slm@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.gnss@1.1.so \
@@ -974,6 +930,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
+    vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.slmadapter@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.2.so \
@@ -1302,6 +1259,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpese@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.nxp.nxpnfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
+    vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
+    vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.1.so \
@@ -1312,7 +1271,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.gnss@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@3.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so \
-    vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.server@1.0.so \
@@ -1348,6 +1306,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so \
+    vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.slmadapter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.slmadapter@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.1.so \
     vendor/sony/tama-common-kddi/proprietary/vendor/lib64/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.vpp@1.2.so \
